@@ -1,0 +1,20 @@
+Objetivo: Este script tem como objetivo verificar a profundidade atual de uma fila ou canal no IBM MQ.
+
+Funcionamento: O script exibe um menu com três opções para verificar fila, canal e fila para Kubernetes. O usuário deve selecionar uma das opções digitando o número correspondente e pressionando Enter. Depois disso, o usuário é solicitado a fornecer algumas informações, como o nome do gerenciador de filas, o nome da fila ou canal em letras maiúsculas.
+
+O script utiliza o comando 'runmqsc' para executar uma consulta ao gerenciador de filas, a fim de obter informações sobre a fila ou canal especificado. Em seguida, usa o comando 'findstr' para filtrar a profundidade atual da fila ou canal a partir do resultado da consulta.
+
+Requisitos de Sistema: Este script foi projetado para ser executado em sistemas operacionais Windows que tenham o IBM MQ instalado.
+
+Instruções de Uso:
+
+Execute o script no prompt de comando do Windows.
+Selecione uma das opções no menu digitando o número correspondente e pressionando Enter.
+Digite o nome do gerenciador de filas, o nome da fila ou canal em letras maiúsculas.
+Aguarde a exibição da profundidade atual da fila ou canal na tela.
+Exemplo de uso:
+
+Ao executar o script, aparecerá um menu com três opções.
+Selecione a opção 1 para verificar a profundidade da fila.
+Digite o nome do gerenciador de filas e o nome da fila em letras maiúsculas.
+Aguarde a exibição da profundidade atual da fila na tela.

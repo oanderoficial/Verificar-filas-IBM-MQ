@@ -9,6 +9,8 @@ cls
 
 :menu
 cls
+
+color 0e
 echo =====================================================
 echo Computador: %computername%		Usuario: %username%
 echo.
@@ -16,6 +18,8 @@ echo %data%
 echo.
 echo  SCRIPT BY ANDERSON B SILVA 
 echo =====================================================
+color 0e
+color 0b
 echo 		Opcoes
 echo =====================================================
 echo *	     1. Verificar Fila                       *
@@ -39,8 +43,8 @@ echo *         Exemplo: SPG1.LGPX.AC409N01               *
 echo *         O valor do campo CURDEPTH deve ser 0      *
 echo =====================================================
 
-set /P VALORES=Digite Queue manager: 
-set /P FILA=Digite a Fila: 
+set /P VALORES=Digite a Fila : 
+set /P FILA=Digite Queue manager: 
 
 :Loop
 echo DIS QS (%VALORES%) curdepth | runmqsc %FILA% | findstr CURDEPTH
@@ -60,8 +64,8 @@ echo *         Exemplo: SPG1.LGPX.AC409N01               *
 echo *         O valor do campo CURDEPTH deve ser 0      *
 echo =====================================================
 
-set /P VALORES=Digite Queue manager: 
-set /P FILA=Digite o canal:
+set /P VALORES=Digite o canal: 
+set /P FILA=Digite Queue manager:
 
 goto :Loop
 echo DIS QS (%VALORES%) curdepth | runmqsc %FILA% | findstr CURDEPTH

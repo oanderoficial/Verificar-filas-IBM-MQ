@@ -1,6 +1,6 @@
 # Verificar-filas-IBM-MQ
 
-<strong>Documentação >> https://www.ibm.com/docs/pt-br/ibm-mq/9.3?topic=windows-installing-mq-server</strong>
+<strong>Documentação >> https://www.ibm.com/docs/pt-br/ibm-mq/9.3?topic=mq-introduction</strong>
 
 <strong> Verificar-filas-IBM-MQ </strong>  
 <br>

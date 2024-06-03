@@ -6,6 +6,8 @@
 <br>
 <p> Este script tem como objetivo verificar a profundidade atual de uma fila ou canal no IBM MQ. </p>
 
+<h2>Comandos:</h2>
+
 <strong> Verificar mensagem no Queue Manager. </strong> 
 ```
 echo DIS QS(<nomefila>) curdepth | runmqsc <NOMEQUEUEMANAGER>

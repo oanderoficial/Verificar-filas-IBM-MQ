@@ -19,3 +19,7 @@ dspmqver
 <strong> Saída: </strong> 
 
 ![image](https://github.com/oanderoficial/Verificar-filas-IBM-MQ/assets/32654298/8f190d4c-485e-4092-8f4b-df149fd6e31f)
+
+<strong> IBM MQ Instalação: </strong>
+
+Windows >> https://www.ibm.com/docs/pt-br/ibm-mq/9.3?topic=windows-installing-mq-server
